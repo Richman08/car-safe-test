@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta charset="utf-8">
+			<title>Car safe</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+			<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+			<link media="all" rel="stylesheet" href="css/normalize.css">
+			<link media="all" rel="stylesheet" href="css/main.css">
+			<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		</head>	
+		<body>
+			<header class="header">	
+				<div class="logo">
+					<img src="./assets/image/icons/shield.png">	
+				</div>
+				<p>Цены и варианты защиты</p>
+			</header>
+			<div class="wraper">
+				<div class="car-classes">
+					<div class="car-block">
+						<p>класс mini*</p>
+						<div class="car-image">
+							<img src="./assets/image/citroen/pure.jpg" id="car-class-mini">
+						</div>	
+						<div class="cal-cost-btn">
+							<button>рассчитать стоимость</button>
+						</div>
+					</div>
+					<div class="car-block">
+						<p>средний класс*</p>
+						<div class="car-image">
+							<img src="./assets/image/mazda/pure.jpg" id="car-class-medium">
+						</div>
+						<div class="cal-cost-btn">
+							<button>рассчитать стоимость</button>
+						</div>	
+					</div>
+					<div class="car-block">
+						<p>премиум класс*</p>
+						<div class="car-image">
+							<img src="./assets/image/mercedes/pure.jpg">
+						</div>	
+						<div class="cal-cost-btn">
+							<button>рассчитать стоимость</button>
+						</div>
+					</div>
+				</div>
+				<div class="selector-wraper">
+					<div class="selector-arrow-down">
+						<img src="./assets/image/icons/triangle-red.png">
+					</div>
+					<div class="selector-arrow-down">
+						<img src="./assets/image/icons/triangle-red.png">
+					</div>
+					<div class="selector-arrow-down">
+						<img src="./assets/image/icons/triangle-red.png">
+					</div>
+				</div>
+				<div class="car-constructor-wraper">
+					<div class="car-constructor">
+						<div class="main-img" id="main-img">
+						</div>
+						<div class="car-moduls-wraper" id="car-moduls-wraper"></div>
+						<div class="price-callme">
+							<div class="price">
+								<p>Цена:</p>
+								<div class="price-value">
+									<span>Материалы + работа</span>
+									<span>7000 руб.</span>
+								</div>
+							</div>
+							<div class="call-me-btn">
+								<a href="#">позвони мне</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="constructor-menu">
+						<nav>
+							<div class="service-plans" id="service-plans">
+								<ul>
+									<li class="menuItem">
+										<span>минимальный</span>
+									</li>
+									<li class="menuItem">
+										<span>стандарт</span>
+									</li>
+									<li class="menuItem">
+										<span>стандарт+</span>
+									</li>
+									<li  class="menuItem" title="Standart++">
+										<span>стандарт++</span>
+									</li>
+									<li class="menuItem">
+										<span>стандарт+++</span>
+									</li>
+									<li class="menuItem">
+										<span>целиком</span>
+									</li>
+									<li class="in-parts-dropdown menuItem">
+										<div id="in-parts-dropdown-hover"></div>
+										<div class="in-part-item" id="in-part-item">
+											<span>частями</span>
+											<i class="fas fa-angle-down" id="fa-angle-down"></i>
+										</div>
+										<ul class="list-car-parts" id="list-car-parts">
+											<li class="parts" id="headlight">
+												<a href="#">оптика</a>
+											</li>
+											<li class="parts" id="threshold">
+												<a href="#">пороги внутренние</a>
+											</li>
+											<li class="parts" id="mirror">
+												<a href="#">зеркала</a>
+											</li>
+											<li class="parts" id="doors">
+												<a href="#">двери (4шт)</a>
+											</li>
+											<li class="parts" id="fender">
+												<a href="#">задние крылья</a>
+											</li>
+											<li class="parts" id="hood">
+												<a href="#">капот</a>
+											</li>
+											<li class="parts" id="front-bumper">
+												<a href="#">передний бампер</a>
+											</li>
+											<li class="parts" id="back-bumper">
+												<a href="#">задний бампер</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+				</div>
+				<footer class="footer"></footer>
+			</div>
+			<script src="./js/index.js"></script>			
+		</body>
+	</html>
